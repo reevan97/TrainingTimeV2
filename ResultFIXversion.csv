@@ -1,0 +1,22 @@
+Top 10 Feature Set vs All features (5-Fold CV),,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Accuracy,,,,,,Precision,,,,,,Training Time (in sec),,,
+,,,,,,,,,,,,,,,
+,Random Forest,XGBoost,SVM,,,,Random Forest,XGBoost,SVM,,,,Random Forest,XGBoost,SVM
+Boruta,0.9959,0.9973,0.9900,,,Boruta,0.9957,0.9973,0.9929,,,Boruta,31.1880,150.2097,416.8204
+RFE,0.9976,0.9987,0.9964,,,RFE,0.9968,0.9986,0.9971,,,RFE,35.7636,222.0140,183.6591
+Correlation,0.9790,0.9806,0.9777,,,Correlation,0.9799,0.9815,0.9788,,,Correlation,19.4244,107.1219,1605.6057
+ContrastFS,0.9790,0.9805,0.9777,,,ContrastFS,0.9800,0.9813,0.9788,,,ContrastFS,20.3737,110.6979,1584.2306
+All Features,1.0000,0.9999,0.9992,,,All Features,0.9999,0.9999,0.9991,,,All Features,49.7631,535.0598,230.8027
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Recall,,,,,,F1,,,,,,,,,
+,,,,,,,,,,,,,,,
+,Random Forest,XGBoost,SVM,,,,Random Forest,XGBoost,SVM,,,,,,
+Boruta,0.9970,0.9979,0.9896,,,Boruta,0.9964,0.9976,0.9913,,,,,,
+RFE,0.9991,0.9992,0.9966,,,RFE,0.9979,0.9989,0.9969,,,,,,
+Correlation,0.9835,0.9846,0.9823,,,Correlation,0.9817,0.9831,0.9806,,,,,,
+ContrastFS,0.9834,0.9847,0.9823,,,ContrastFS,0.9817,0.9830,0.9806,,,,,,
+All Features,1.0000,0.9999,0.9995,,,All Features,1.0000,0.9999,0.9993,,,,,,
